@@ -28,7 +28,7 @@ h2 {
 }
 
 img {
-  border: 0px transparent #000000;
+  border: 1px solid #000000;
   
   border-radius: 8px;
   background-color: #E0DFDA;
