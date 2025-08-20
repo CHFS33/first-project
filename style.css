@@ -1,11 +1,46 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
+  margin: 0;
+  font-family: Georgia, serif;
   background-color: #E0DFDA;
 }
+
+main {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
 h1 {
   background-color: #9CAF88;
   color: white;
+  padding: .75rem 1rem;
+  border-radius: .5rem;
 }
 h2 {
   background-color: #708090;
   color: #fff;
+  padding: .4rem .6rem;
+  border-radius: .4rem;
+}
+
+article, section {
+margin-block: 1rem;
+}
+
+ul, ol {
+  padding-left: 1.25rem;
+}
+
+nav a {
+  margin-right: 1rem;
+  text-decoration: none;
+  color: inherit;
+}
+
+nav a:hover {
+  text-decoration: underline;
 }
