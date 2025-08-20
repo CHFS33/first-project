@@ -27,13 +27,7 @@ h2 {
   border-radius: .4rem;
 }
 
-.smokedham {
-  border: 1px solid #000000;
-  
-  border-radius: 8px;
-  background-color: #E0DFDA;
-  box-shadow: 0 4px 8px rgb(62, 59, 59, 1);
-}
+
 article, section {
 margin-block: 1rem;
 }
