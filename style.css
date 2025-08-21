@@ -29,13 +29,17 @@ h2 {
   border-radius: .4rem;
 }
 
+h3 {
+  text-decoration: underline;
+}
+
 img {
    border: 1.5px solid black;
   padding: 0;
-  margin: 0;
+  margin: 1rem 0;
   border-radius: 6px;
   background-color: #E0DFDA;
-  box-shadow: 0 4px 8px rgb(62, 59, 59, 1);
+  box-shadow: 0 4px 8px rgb(62, 59, 59, .25);
 }
 .smokedham {
   max-width: 100%;
@@ -49,8 +53,8 @@ margin-block: 1rem;
 
 section {
   border: 3.5px solid #708090;
-  padding: 15px;
-  margin: 20px 0;
+  padding: 1.25rem;
+  margin: 1.5rem 0;
   border-radius: 11px;
   background-color: #E0DFDA;
   box-shadow: 0 4px 8px rgb(62, 59, 59, 1);
@@ -64,12 +68,26 @@ li {
   margin-bottom: 0.5rem;
 }
 
+nav {
+  font-family: arial, sans-serif;
+}
 nav a {
   margin-right: 1rem;
   text-decoration: none;
   color: inherit;
 }
+nav a:focus {
+  outline: 2px solid #007bff;
+  outline-offset: 4px;;
+}
 
 nav a:hover {
   text-decoration: underline;
+}
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #9CAF88;
+  color: white;
+  font-size: 0.9rem;
 }
