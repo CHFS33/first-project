@@ -17,16 +17,19 @@ main {
 
 h1 {
   background-color: #9CAF88;
-  color: white;
+  color: #E0DFDA;
   padding: .75rem 1rem;
   border-radius: .5rem;
   text-align: center;
+  font-weight: 900;
+  font-size: 40px;
 }
 h2 {
   background-color: #708090;
-  color: #fff;
-  padding: .4rem .6rem;
+  color: #E0DFDA;
+  padding: .4rem 1.5rem;  
   border-radius: .4rem;
+  font-weight: 555;
 }
 
 h3 {
@@ -39,11 +42,12 @@ img {
   margin: 1rem 0;
   border-radius: 6px;
   background-color: #E0DFDA;
-  box-shadow: 0 4px 8px rgb(62, 59, 59, .25);
+  box-shadow: 12px 9px 8px rgba(90, 85, 85, .75);
 }
 .smokedham {
   max-width: 100%;
   height: auto;
+  max-height: 400px;
   display: block;
 }
 
@@ -57,7 +61,7 @@ section {
   margin: 1.5rem 0;
   border-radius: 11px;
   background-color: #E0DFDA;
-  box-shadow: 0 4px 8px rgb(62, 59, 59, 1);
+  box-shadow: 12px 9px 8px rgba(70, 67, 67, 1);
   
 }
 
@@ -76,13 +80,11 @@ nav a {
   text-decoration: none;
   color: inherit;
 }
-nav a:focus {
-  outline: 2px solid #007bff;
-  outline-offset: 4px;;
-}
 
 nav a:hover {
   text-decoration: underline;
+  outline: 2px solid slateblue;
+  outline-offset: 4px;
 }
 footer {
   text-align: center;
