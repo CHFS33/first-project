@@ -24,6 +24,9 @@ h1 {
   font-weight: 900;
   font-size: 40px;
 }
+.homepage {
+  text-align: center;
+}
 h2 {
   background-color: #708090;
   color: #E0DFDA;
@@ -56,6 +59,27 @@ img {
   max-height: 400px;
   display: block;
 }
+.homescreen img {
+   border: 1.5px solid black;
+  padding: 0;
+  margin: 1rem 0;
+  border-radius: 6px;
+  background-color: #E0DFDA;
+  box-shadow: 12px 9px 8px rgba(90, 85, 85, .75);
+}
+.homeimage .homescreen {
+  display: inline-block;
+  justify-content: center;
+  margin: 10px 65px;
+  width: 300px;
+  max-width: 100%;
+  height: auto;
+  
+  
+  
+}
+}
+
 
 article, section {
 margin-block: 1rem;
