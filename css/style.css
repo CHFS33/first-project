@@ -151,3 +151,18 @@ footer {
   color: white;
   font-size: 0.9rem;
 }
+/* mobile properties */
+@media (max-width: 960px) {
+  nav li {
+    display: block;
+    margin: 0.5rem o;
+  }
+  .homeimage .homescreen {
+    width: 90%;
+    margin: 10px auto;
+    display: block;
+  }
+  h1 {
+    font-size: 1.8rem;
+  }
+}
