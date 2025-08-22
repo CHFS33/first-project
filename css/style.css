@@ -59,6 +59,13 @@ img {
   max-height: 400px;
   display: block;
 }
+
+  .smokednuts {
+  max-width: 100%;
+  height: auto;
+  max-height: 400px;
+  display: block;
+}
 .homescreen img {
    border: 1.5px solid black;
   padding: 0;
