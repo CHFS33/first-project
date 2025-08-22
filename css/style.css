@@ -158,6 +158,9 @@ footer {
   nav li {
     display: block;
     margin: 0.5rem o;
+    
+  }
+  .myrecipes {
     border: 3px solid #0d0d0d;
     background: #708090;
     opacity: .75;
